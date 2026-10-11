@@ -1,0 +1,8 @@
+{
+  "name": "Asador Real - Jerez de la Frontera",
+  "description": "Asador tradicional en Jerez de la Frontera. Especialidad en pollos asados al horno, guarniciones y raciones caseras. Horario de 9:00 a 15:45. Encargos al 956 31 48 64.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

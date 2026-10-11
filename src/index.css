@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", Georgia, Cambria, serif;
+  --font-body: "Newsreader", Georgia, serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+  
+  --color-primary: #c47c2b;
+  --color-primary-dark: #884e00;
+  --color-primary-hover: #a86513;
+  --color-primary-light: #faecd8;
+  --color-primary-fixed: #ffdcbe;
+  
+  --color-surface: #fdf9f2;
+  --color-surface-container: #f1ede6;
+  --color-surface-low: #f7f3ec;
+  --color-surface-high: #ebe8e1;
+  --color-surface-highest: #e6e2db;
+  
+  --color-dark: #1c1c18;
+  --color-muted: #524437;
+  --color-border: #d8c3b2;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1c1c18;
+  background-color: #fdf9f2;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-serif);
+}
+
+.font-ui {
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar hide for horizontal tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
